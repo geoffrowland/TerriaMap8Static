@@ -22,7 +22,8 @@
       "google": true,
       "isOpenInWorkbench": false,
       "isOpenInWorkbench": false,
-      "name": "Satellite"
+      "name": "Satellite",
+      "attribution": "Google Maps"
     },
     {
     "type": "wms",
@@ -32,57 +33,63 @@
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
       "name": "BGS 1:625k Surface Lithology",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLT",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLS",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
       "name": "BGS 1:625k Surface Lithostratigraphy",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLS",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
       "name": "BGS 1:625k Bedrock Age",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BA",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
       "name": "BGS 1:625k Surface Age",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SA",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
