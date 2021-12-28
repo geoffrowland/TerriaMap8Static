@@ -8,6 +8,7 @@
     "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3ODJiNTI2NC0yNDUzLTRlZWMtOWQ3OS00NDhkZWQ5ZjBjYTYiLCJpZCI6NTgsImlhdCI6MTQ4NzYyNjM0N30.w1o6-XfyCqrGJtj8X4ci4z8zvtFxETG562RORr35O_s",
     "useCesiunIonTerrain": false,
     "cesiumTerrainAssetId": 7581,
+    "bingMapsKey": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
     "hideTerriaLogo": false,
     "tabbedCatalog": false,
 
@@ -46,12 +47,12 @@
             link: "http://www.example.com"
         },*/
     // This is used in various text messages. You should also set <title> in index.html
-    "appName": "Terria Map",
+    "appName": "GeoFeature",
 
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
-      "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+      "<img src=\"images/geofeature_logo.png\" height=\"52\" title=\"Version: 1\" />",
       ""
     ],
     // Shown when things go wrong.
