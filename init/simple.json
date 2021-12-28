@@ -15,16 +15,6 @@
   },
   "workbench": ["Workbench"],
   "catalog": [
-     {
-      "type": "geojson",
-      "name": "GeoJSON Test",
-      "url": "test/bike_racks.geojson"
-    },
-    {
-    "type": "wms-group",
-      "name": "BGS 50k Geology",
-      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer"
-    },
     {
       "url": "https://google.com/vt/",
       "subdomains": ["mt0","mt1","mt2","mt3"],
@@ -37,7 +27,7 @@
     {
     "type": "wms",
       "name": "BGS 1:625k Bedrock Lithology",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLT",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
