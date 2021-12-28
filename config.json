@@ -11,6 +11,8 @@
     "bingMapsKey": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
     "hideTerriaLogo": false,
     "tabbedCatalog": false,
+    "corsProxyBaseUrl": "http://nationalmap.gov.au/proxy/",
+    "proxyableDomainsUrl": "http://nationalmap.gov.au/proxyabledomains/",
 
     // Log ConsoleAnalytics events to console
     // logToConsole: true,
