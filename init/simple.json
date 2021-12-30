@@ -510,9 +510,9 @@
           ]
         },
         {
-          "url": "../images",
+          "url": "https://geoffrowland.github.io/TerriaMap8Static/images/grey.png",
           "type": "open-street-map",
-          "bkgd": true,
+          "tms": true,
           "fileExtension": "png",
           "dataCustodian": "Geoff Rowland",
           "name": "Background",
