@@ -449,7 +449,7 @@
           ]
         },
         {
-          "url": "https://geoffrowland.github.io/TerriaMap8Static/images",
+          "url": "/images",
           "type": "open-street-map",
           "bkgd": true,
           "fileExtension": "png",
