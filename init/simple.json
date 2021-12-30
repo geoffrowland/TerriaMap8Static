@@ -21,7 +21,8 @@
       "google": true,
       "isOpenInWorkbench": false,
       "isOpenInWorkbench": false,
-      "name": "Satellite"
+      "name": "Satellite",
+      "attribution": "Google Maps"
     },
     {
     "type": "wms",
@@ -31,7 +32,8 @@
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
@@ -41,7 +43,8 @@
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
@@ -51,7 +54,8 @@
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
@@ -61,7 +65,8 @@
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
@@ -71,7 +76,8 @@
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "wms",
@@ -81,7 +87,8 @@
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
       "isOpenInWorkbench": false,
-      "opacity": 0.5
+      "opacity": 0.5,
+      "attribution": "Contains British Geological Survey materials © UKRI 2021"
     },
     {
     "type": "esri-mapServer",
