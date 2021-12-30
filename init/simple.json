@@ -731,27 +731,35 @@
 		    },
 		    {
 			     "item": "basemap-bing-aerial",
-			    "image": "images/basemaps/basemap2.png"
+			     "image": "images/basemaps/basemap2.png"
 		    },
 		    {
 			     "item": "basemap-bing-roads",
-			    "image": "images/basemaps/basemap3.png"
+			     "image": "images/basemaps/basemap3.png"
 		    },
 		    {
-			     "item": "basemap-natural-earth-II",
-			    "image": "images/basemaps/basemap4.png"
+			     "item": {
+			         "id": "basemap-natural-earth-II",
+				 "url": "https://geoserver.nationalmap.nicta.com.au/imagery/natural-earth-ii/wms",
+                                 "layers": "NE2_HR_LC_SR_W_DR"				 
+			     },
+			     "image": "images/basemaps/basemap4.png"
 		    },
 		    {
-			     "item": "basemap-black-marble",
-			    "image": "images/basemaps/basemap5.png"
+			     "item": {
+			         "id": "basemap-black-marble",
+			         "url": "https://geoserver.nationalmap.nicta.com.au/imagery/nasa-black-marble/wms",
+                                 "layers": "nasa-black-marble:dnb_land_ocean_ice.2012.54000x27000_geo"
+			     },
+			     "image": "images/basemaps/basemap5.png"
 		    },
 		    {
 			     "item": "basemap-darkmatter",
-			    "image": "images/basemaps/basemap7.png"
+			     "image": "images/basemaps/basemap7.png"
 		    },
-			{
-			    "item": "//Hillshade",
-			    "image": "images/basemaps/basemap8.png"
+		    {
+			     "item": "//Hillshade",
+			     "image": "images/basemaps/basemap8.png"
 		    }
        ]
    },
