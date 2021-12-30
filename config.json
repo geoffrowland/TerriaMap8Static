@@ -52,7 +52,7 @@
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
-      "<img src=\"images/geofeature_logo.png\" height=\"52\" title=\"Version: 1\" />",
+      "<img src=\"images/geofeature.png\" height=\"50\" title=\"GeoFeature version: 1.0\" />",
       ""
     ],
     // Shown when things go wrong.

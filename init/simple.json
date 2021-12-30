@@ -13,18 +13,7 @@
          "range": 2000
 	  }
   },
-  "workbench": ["Workbench"],
   "catalog": [
-     {
-      "type": "geojson",
-      "name": "GeoJSON Test",
-      "url": "test/bike_racks.geojson"
-    },
-    {
-    "type": "wms-group",
-      "name": "BGS 50k Geology",
-      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer"
-    },
     {
       "url": "https://google.com/vt/",
       "subdomains": ["mt0","mt1","mt2","mt3"],
@@ -37,7 +26,7 @@
     {
     "type": "wms",
       "name": "BGS 1:625k Bedrock Lithology",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLT",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
@@ -47,7 +36,7 @@
     {
     "type": "wms",
       "name": "BGS 1:625k Surface Lithology",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLT",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
@@ -57,7 +46,7 @@
     {
     "type": "wms",
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLS",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
@@ -67,7 +56,7 @@
     {
     "type": "wms",
       "name": "BGS 1:625k Surface Lithostratigraphy",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLS",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
@@ -77,7 +66,7 @@
     {
     "type": "wms",
       "name": "BGS 1:625k Bedrock Age",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BA",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
@@ -87,7 +76,7 @@
     {
     "type": "wms",
       "name": "BGS 1:625k Surface Age",
-      "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SA",
       "minScaleDenominator": 100000,
       "hideLayerAfterMinScaleDenominator": true,
@@ -95,14 +84,49 @@
       "opacity": 0.5
     },
     {
+    "type": "esri-mapServer",
+      "name": "1:50 000 scale bedrock geology",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeologyOfBritain/GeologyViewer_Bedrock_v8/MapServer/",
+      "layers": "2",
+      "isOpenInWorkbench": false,
+      "allowFeaturePicking": false,
+      "opacity": 0.5
+    },
+    {
+    "type": "esri-mapServer",
+      "name": "1:625 000 scale bedrock geology",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeologyOfBritain/GeologyViewer_Bedrock_v8/MapServer/",
+      "layers": "4",
+      "isOpenInWorkbench": false,
+      "allowFeaturePicking": false,
+      "opacity": 0.5
+    },
+    {
+    "type": "esri-mapServer",
+      "name": "1:50 000 scale superficial deposits",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeologyOfBritain/GeologyViewer_Superficial_v8/MapServer/",
+      "layers": "2",
+      "isOpenInWorkbench": false,
+      "allowFeaturePicking": false,
+      "opacity": 0.5
+    },
+    {
+    "type": "esri-mapServer",
+      "name": "1:625 000 scale superficial deposits",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeologyOfBritain/GeologyViewer_Superficial_v8/MapServer/",
+      "layers": "4",
+      "isOpenInWorkbench": false,
+      "allowFeaturePicking": false,
+      "opacity": 0.5
+    },
+    {
     "type": "wms",
-      "name": "BGS 50k Bedock Geology",
+      "name": "BGS 1:50k Bedock Geology",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Bedrock",
       "opacity": 0.5,
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
-      "showStringIfPropertyValueIsNull": "Hello",
       "featureInfoTemplate": {
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}",
@@ -110,6 +134,80 @@
               "Null": " "
           }
        }
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:50k Surface Geology",
+      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "layers": "BGS.50k.Superficial.deposits",
+      "opacity": 0.5,
+      "hideLegendInWorkbench": true,
+      "isOpenInWorkbench": false,
+      "featureInfoTemplate": {
+		  "name": "{{LEX_RCS_D}}",
+		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}",
+          "partials": {
+              "Null": " "
+          }
+       }
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:50k Linear Features",
+      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "layers": "BGS.50k.Linear.features",
+      "opacity": 1.0,
+      "hideLegendInWorkbench": true,
+      "isOpenInWorkbench": false,
+      "featureInfoTemplate": {
+		  "name": "{{CATEGORY}}",
+		  "template": "{{CATEGORY}}<br><br>{{FEATURE_D}}"
+       }
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:50k Mass movement",
+      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "layers": "BGS.50k.Mass.movement",
+      "opacity": 1.0,
+      "hideLegendInWorkbench": true,
+      "isOpenInWorkbench": false,
+      "featureInfoTemplate": {
+		  "name": "{{LEX_RCS_D}}",
+		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
+       }
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:50k Artificial ground",
+      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "layers": "BGS.50k.Artificial.ground",
+      "opacity": 1.0,
+      "hideLegendInWorkbench": true,
+      "isOpenInWorkbench": false,
+      "featureInfoTemplate": {
+		  "name": "{{LEX_RCS_D}}",
+		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
+       }
+    },
+    {
+      "type": "esri-mapServer",
+      "name": "William Smith Map 1815",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeologyOfBritain/WilliamSmithMap/MapServer/",
+      "layers": "0",
+      "isOpenInWorkbench": false,
+      "allowFeaturePicking": false,
+      "hideLegendInWorkbench": true,
+      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
+      "opacity": 0.5
+    },
+    {
+          "name": "Ordnance Survey Bing",
+          "type": "bing-maps",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "ORDNANCESURVEY",
+          "description": "Bing Maps Ordnance Survey, maps for outdoors",
+          "opacity": 0.5
     }, 
     {
           "url": "https://tile.openstreetmap.org",
@@ -131,6 +229,90 @@
             {
               "name": "Licence",
               "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/devon2nd",
+          "type": "open-street-map",
+          "tms": false,
+          "fileExtension": "png",
+          "dataCustodian": "OSM",
+          "name": "Devon OS 1900",
+          "forceProxy": true,
+          "opacity": 0.5,
+          "rectangle": {
+			  "west": -4.68578274,
+			  "south": 50.19596947,
+			  "east": -2.85429358,
+			  "north": 51.25544162
+		  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+		  "info": [
+            {
+              "name": "Licence",
+              "content": "NLS"
+            }
+          ]
+        },
+        {
+          "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/dorset",
+          "type": "open-street-map",
+          "tms": false,
+          "fileExtension": "png",
+          "dataCustodian": "OSM",
+          "name": "Dorset OS 1900",
+          "forceProxy": true,
+          "opacity": 0.5,
+          "rectangle": {
+			  "west": -2.97270687,
+			  "south": 50.50924959,
+			  "east": -1.80231259,
+			  "north": 51.08428049
+		  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+		  "info": [
+            {
+              "name": "Licence",
+              "content": "NLS"
+            }
+          ]
+        },
+        {
+          "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset",
+          "type": "open-street-map",
+          "tms": false,
+          "fileExtension": "png",
+          "dataCustodian": "OSM",
+          "name": "Somerset OS 1900",
+          "forceProxy": true,
+          "opacity": 0.5,
+          "rectangle": {
+			  "west": -3.83855710,
+			  "south": 50.82106580,
+			  "east": -2.21196942,
+			  "north": 51.50398795
+		  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+		  "info": [
+            {
+              "name": "Licence",
+              "content": "NLS"
             }
           ]
         },
@@ -527,13 +709,6 @@
             {
                 "item": {
                     "id": "basemap-positron",
-                    "name": "Base map positron customized name",
-                },
-                "image": "images/basemaps/positron.png"
-            },
-            {
-                "item": {
-                    "id": "basemap-osm",
                     "name": "Open Street Map",
                     "type": "open-street-map",
                     "url": "https://tile.openstreetmap.org",
@@ -541,14 +716,39 @@
                     "subdomains": ["a", "b", "c"],
                     "opacity": 1.0
                 },
-                "image": "images/basemaps/positron.png"	
+                "image": "images/basemaps/basemap6.png"	
 			},
+		    {
+			     "item": "basemap-bing-aerial-with-labels",
+			    "image": "images/basemaps/basemap1.png"
+		    },
+		    {
+			     "item": "basemap-bing-aerial",
+			    "image": "images/basemaps/basemap2.png"
+		    },
+		    {
+			     "item": "basemap-bing-roads",
+			    "image": "images/basemaps/basemap3.png"
+		    },
+		    {
+			     "item": "basemap-natural-earth-II",
+			    "image": "images/basemaps/basemap4.png"
+		    },
+		    {
+			     "item": "basemap-black-marble",
+			    "image": "images/basemaps/basemap5.png"
+		    },
+		    {
+			     "item": "basemap-darkmatter",
+			    "image": "images/basemaps/basemap7.png"
+		    },
 			{
 			    "item": "//Hillshade",
-			    "image": "images/basemaps/positron.png"
+			    "image": "images/basemaps/basemap8.png"
 		    }
        ]
-   }, 
-   "baseMapId": "basemap-hillshade",
-   "previewBaseMapId": "basemap-osm"
+   },
+   "enabledBaseMaps": ["Hillshade","basemap-positron"], 
+   "previewBaseMapId": "Hillshade",
+   "defaultBaseMapId": "Hillshade"
 }
